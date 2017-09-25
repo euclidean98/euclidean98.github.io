@@ -6,14 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>All Regressions Should Converge</title>
+  <title>All Regressions Must Converge</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="All Regressions Should Converge" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="All Regressions Must Converge" href="/feed.xml">
+
   
-  
+  <script>
+  MathJax.Hub.Config({
+     tex2jax: {
+       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+     }
+   });
+   MathJax.Hub.Queue(function() {
+       var all = MathJax.Hub.getAllJax(), i;
+       for(i=0; i < all.length; i += 1) {
+           all[i].SourceElement().parentNode.className += ' has-jax';
+       }
+   });
+   code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
+  </script>
 </head>
 
 
@@ -24,7 +39,7 @@
   <div class="wrapper">
     
     
-    <a class="site-title" href="/">All Regressions Should Converge</a>
+    <a class="site-title" href="/">All Regressions Must Converge</a>
   
     
       <nav class="site-nav">
@@ -78,10 +93,19 @@
     
       <li>
         
+        <span class="post-meta">Sep 24, 2017</span>
+
+        <h2>
+          <a class="post-link" href="/number-theory/2017/09/24/congruence-part-1.html">Congruence (Part I)</a>
+        </h2>
+      </li>
+    
+      <li>
+        
         <span class="post-meta">Sep 22, 2017</span>
 
         <h2>
-          <a class="post-link" href="/random/2017/09/22/welcome-to-jekyll.html">New Kid!</a>
+          <a class="post-link" href="/random/2017/09/22/neural-networks-for-life.html">New Kid!</a>
         </h2>
       </li>
     
@@ -98,14 +122,14 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">All Regressions Should Converge</h2>
+    <h2 class="footer-heading">All Regressions Must Converge</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             
-              All Regressions Should Converge
+              All Regressions Must Converge
             
             </li>
             

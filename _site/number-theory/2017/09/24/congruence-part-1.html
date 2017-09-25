@@ -6,14 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>New Kid!</title>
-  <meta name="description" content="Anonymous new kid on the blockfar too excited about everything Computer Science and Mathematics. I dedicate this blog to people looking for an accessible and...">
+  <title>Congruence (Part I)</title>
+  <meta name="description" content="Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘Disquisitiones Arithmeticae’. In this blog pos...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/random/2017/09/22/welcome-to-jekyll.html">
-  <link rel="alternate" type="application/rss+xml" title="All Regressions Should Converge" href="/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/number-theory/2017/09/24/congruence-part-1.html">
+  <link rel="alternate" type="application/rss+xml" title="All Regressions Must Converge" href="/feed.xml">
+
   
-  
+  <script>
+  MathJax.Hub.Config({
+     tex2jax: {
+       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+     }
+   });
+   MathJax.Hub.Queue(function() {
+       var all = MathJax.Hub.getAllJax(), i;
+       for(i=0; i < all.length; i += 1) {
+           all[i].SourceElement().parentNode.className += ' has-jax';
+       }
+   });
+   code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
+  </script>
 </head>
 
 
@@ -24,7 +39,7 @@
   <div class="wrapper">
     
     
-    <a class="site-title" href="/">All Regressions Should Converge</a>
+    <a class="site-title" href="/">All Regressions Must Converge</a>
   
     
       <nav class="site-nav">
@@ -70,26 +85,22 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">New Kid!</h1>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+    <h1 class="post-title" itemprop="name headline">Congruence (Part I)</h1>
     <p class="post-meta">
-      <time datetime="2017-09-22T23:31:15-04:00" itemprop="datePublished">
+      <time datetime="2017-09-24T10:53:01-04:00" itemprop="datePublished">
         
-        Sep 22, 2017
+        Sep 24, 2017
       </time>
       </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Anonymous new kid on the blockfar too excited about everything Computer Science and Mathematics. I dedicate this blog to people looking for an accessible and efficient way to learn the math behind computer science.</p>
+    <p>Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘<em>Disquisitiones Arithmeticae</em>’. In this blog post, I will provide a detailed explanation of the idea of congruences and some of the most important theorems about congruences.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
+<h4 id="definition"><strong>Definition</strong></h4>
+<p>Let a,b be two integers. a is congruent to b <strong>relative to</strong> <em>m</em>, written: <script type="math/tex">a \equiv b \pmod m</script></p>
 
   </div>
 
@@ -103,14 +114,14 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">All Regressions Should Converge</h2>
+    <h2 class="footer-heading">All Regressions Must Converge</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             
-              All Regressions Should Converge
+              All Regressions Must Converge
             
             </li>
             

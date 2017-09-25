@@ -25,9 +25,9 @@ twitter_username: euclidean98
 github_username:  euclidean98
 
 # Build settings
-markdown: kramdown
-#theme: minima
-theme: jekyll-theme-architect
+markdown: redcarpet
+theme: minima
+#theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 

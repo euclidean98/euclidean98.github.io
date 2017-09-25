@@ -4,7 +4,7 @@ title:  "New Kid!"
 date:   2017-09-22 23:31:15 -0400
 categories: random
 ---
-Anonymous new kid on the blockfar too excited about everything Computer Science and Mathematics. I dedicate this blog to people looking for an accessible and efficient way to learn the math behind computer science.
+New kid on the block : far too excited about everything Computer Science and Mathematics. I dedicate this blog to people looking for an accessible and efficient way to learn the math behind computer science.
 
 
 

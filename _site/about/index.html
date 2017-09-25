@@ -11,9 +11,24 @@
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/about/">
-  <link rel="alternate" type="application/rss+xml" title="All Regressions Should Converge" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="All Regressions Must Converge" href="/feed.xml">
+
   
-  
+  <script>
+  MathJax.Hub.Config({
+     tex2jax: {
+       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+     }
+   });
+   MathJax.Hub.Queue(function() {
+       var all = MathJax.Hub.getAllJax(), i;
+       for(i=0; i < all.length; i += 1) {
+           all[i].SourceElement().parentNode.className += ' has-jax';
+       }
+   });
+   code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
+  </script>
 </head>
 
 
@@ -24,7 +39,7 @@
   <div class="wrapper">
     
     
-    <a class="site-title" href="/">All Regressions Should Converge</a>
+    <a class="site-title" href="/">All Regressions Must Converge</a>
   
     
       <nav class="site-nav">
@@ -96,14 +111,14 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">All Regressions Should Converge</h2>
+    <h2 class="footer-heading">All Regressions Must Converge</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             
-              All Regressions Should Converge
+              All Regressions Must Converge
             
             </li>
             
