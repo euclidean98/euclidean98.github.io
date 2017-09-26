@@ -100,7 +100,30 @@
     <p>Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘<em>Disquisitiones Arithmeticae</em>’. In this blog post, I will provide a detailed explanation of the idea of congruences and some of the most important theorems about congruences.</p>
 
 <h4 id="definition"><strong>Definition</strong></h4>
-<p>Let a,b be two integers. a is congruent to b <strong>relative to</strong> <em>m</em>, written: <script type="math/tex">a \equiv b \pmod m</script> if and only if <script type="math/tex">m \mid (a-b)</script></p>
+<p>Let a,b be two integers. a is congruent to b <strong>relative to</strong> <em>m</em>, written: <script type="math/tex">a \equiv b \pmod m</script> if and only if <script type="math/tex">m \mid (a-b)</script>.</p>
+
+<p><strong>THEOREM 1</strong></p>
+
+<p><script type="math/tex">Let\ a,b,m\in \mathbb{Z}\ and\ m \gt 0.\ a\equiv b \pmod m</script> if and only if the remainder of a divided by m equals the remainder of b divided by m. <em><strong>i.e.</strong>,</em></p>
+
+<p>Let <script type="math/tex">a=q_1\cdot m +r_1 \land b=q_2\cdot m+r_2</script> such that <script type="math/tex">0\le r_1,r_2\lt m</script>. Then,
+the theorem claims that <script type="math/tex">a\equiv b \pmod m\iff r_1 = r_2</script></p>
+
+<p><strong>PROOF</strong>
+First, we assume <script type="math/tex">r_1=r_2</script> to show that <script type="math/tex">a\equiv b \pmod m</script>.
+Since <script type="math/tex">r_1=r_2</script>,</p>
+
+<script type="math/tex; mode=display">a-q_1\cdot m=b-q_2\cdot m\\i.e.\ a-b=q_1\cdot m-q_2\cdot m\\i.e.\ a-b=m(q_1-q_2)\\i.e., m\mid (a-b)</script>
+
+<p>Conversely, we assume <script type="math/tex">a\equiv b \pmod m</script> to show that <script type="math/tex">r_1=r_2</script>.
+By the definition of congruence, we know the following:</p>
+
+<script type="math/tex; mode=display">m\mid(a-b)\\i.e.\ m\mid((q_1\cdot m+r_1)-(q_2\cdot m+r_2))\\
+i.e.\ \exists k\in \mathbb{Z} :\ m\cdot k=(q_1\cdot m+r_1)-(q_2\cdot m+r_2)\\
+i.e.\ m\cdot (k-q_1+q_2) = r_1-r_2\\
+m\mid r_1-r_2.</script>
+
+<script type="math/tex; mode=display">Since -m\lt r_1-r_2 \lt m, r_1-r_2=0 \ \blacksquare</script>
 
   </div>
 
