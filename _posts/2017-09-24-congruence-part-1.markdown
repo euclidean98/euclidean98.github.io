@@ -32,3 +32,22 @@ i.e.\ m\cdot (k-q_1+q_2) = r_1-r_2\\
 m\mid r_1-r_2. $$
 
 $$Since -m\lt r_1-r_2 \lt m, r_1-r_2=0 \ \blacksquare$$
+
+
+<br>
+
+
+**THEOREM 2** <br>(_Congruence is an equivalence relation._)
+
+Let $$m\in \mathbb{Z} and\ m \gt 0.\\1.(Reflexivity)\ a\equiv a \pmod m \forall a \in \mathbb{Z}.\\
+    2.(Commutativity)\ a\equiv b \pmod m \iff\ b\equiv a \pmod m\\ 3.(Transitivity)\ a\equiv b \pmod m \land b\equiv c\pmod m
+    \Rightarrow a\equiv c \pmod m $$
+
+**PROOF**
+
+1.$$\ a\equiv a \pmod m \iff m\mid a-a\\i.e.\ m\mid 0, which\ is\ true. \square$$  
+2.$$\ a\equiv b \pmod m \iff m\mid a-b\iff \exists k \in \mathbb{Z}:a-b=m\cdot k\\
+So,\ b-a = -m\cdot k\\i.e.\ m\mid (b-a). \square$$  
+3.$$\ Since,\ a\equiv b \pmod m,\ m\mid (a-b).\ Also,\ b\equiv c\pmod m,\ m\mid (b-c).$$
+$$\text{So, m divides all combinations of (a-b) and (b-c). In particular, }m\mid {(a-b)+(b-c)}
+\\i.e.\ m\mid (a-c) \ \blacksquare$$
