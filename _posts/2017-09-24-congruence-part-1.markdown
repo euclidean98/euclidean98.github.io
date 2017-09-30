@@ -51,3 +51,28 @@ So,\ b-a = -m\cdot k\\i.e.\ m\mid (b-a). \square$$
 3.$$\ Since,\ a\equiv b \pmod m,\ m\mid (a-b).\ Also,\ b\equiv c\pmod m,\ m\mid (b-c).$$
 $$\text{So, m divides all combinations of (a-b) and (b-c). In particular, }m\mid {(a-b)+(b-c)}
 \\i.e.\ m\mid (a-c) \ \blacksquare$$
+
+<br>
+
+**THEOREM 3**
+
+$$Let\ a,b,c,d,m\in \mathbb{Z}\ and\ m \gt 0.\\ If\ a\equiv b\pmod m \land \ c\equiv d\pmod m\  then,\\ a+c\equiv b+d\pmod m\ \land a\cdot c\equiv b\cdot d\pmod m.$$
+
+**PROOF**
+
+$$a\equiv b\pmod m \to m\mid (a-b) \\ c\equiv d\pmod m \to m\mid (c-d)\\
+So,\ m\ divides\ all\ combinations\ of\ (a-b)\ and\ (c-d).\\In\ particular,\\
+m\mid (a-b)+(c-d)\\i.e.\ m\mid (a+c)-(b+d)\\i.e.\ a+c\equiv b+d\pmod m\\Similarly,\\
+m\mid c\cdot(a-b)+b\cdot(c-d)\\i.e.\ m\mid ac - bd\\i.e. a\cdot c \equiv b\cdot d \pmod m$$
+
+**Corollaries of Theorem 3**
+
+_Corollary #1_ <br>
+
+$$If\ a\equiv b \pmod m,\ for\ \forall n\in \mathbb{Z}\ a^n\equiv b^n\pmod m$$ (From repeated application of part 2 of theorem 3)
+
+_Corollary #2_ <br>
+
+$$Let\ p(x)=c_n\cdot x^n + c_n-1\cdot x^n-1 +\ ...\ + c_1\cdot x + c_0\ be\ a\ polynomial\ and\ a,b \in \mathbb{Z}.\\If\ a\equiv b \pmod m\ ,then\ p(a)\equiv p(b) \pmod m.$$
+**Proof**
+$$\\\\From\ corollary\ 1,\ for\ each\ power,\ let\ k,\ of\ x\ in\ p(x),\ a^k\equiv b^k\pmod m.\\ So, c_k\cdot a^k \equiv c_k\cdot b^k \pmod m,\ from\ part\ 2\ of\ theorem\ 3.\\Adding\ all\ congruences\ obtained\ by\ taking\ all\ powers\ in\ the\ polynomial\ p(x),\\ from\ part\ 1\ of\ theorem\ 3,\ p(a)\equiv p(b) \pmod m. \square$$

@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/number-theory/2017/09/24/congruence-part-1.html">
-  <link rel="alternate" type="application/rss+xml" title="All Regressions Must Converge" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="euclidean98" href="/feed.xml">
 
   
   <script>
@@ -39,7 +39,7 @@
   <div class="wrapper">
     
     
-    <a class="site-title" href="/">All Regressions Must Converge</a>
+    <a class="site-title" href="/">euclidean98</a>
   
     
       <nav class="site-nav">
@@ -142,6 +142,31 @@ So,\ b-a = -m\cdot k\\i.e.\ m\mid (b-a). \square</script><br />
 <script type="math/tex">\text{So, m divides all combinations of (a-b) and (b-c). In particular, }m\mid {(a-b)+(b-c)}
 \\i.e.\ m\mid (a-c) \ \blacksquare</script></p>
 
+<p><br /></p>
+
+<p><strong>THEOREM 3</strong></p>
+
+<script type="math/tex; mode=display">Let\ a,b,c,d,m\in \mathbb{Z}\ and\ m \gt 0.\\ If\ a\equiv b\pmod m \land \ c\equiv d\pmod m\  then,\\ a+c\equiv b+d\pmod m\ \land a\cdot c\equiv b\cdot d\pmod m.</script>
+
+<p><strong>PROOF</strong></p>
+
+<script type="math/tex; mode=display">a\equiv b\pmod m \to m\mid (a-b) \\ c\equiv d\pmod m \to m\mid (c-d)\\
+So,\ m\ divides\ all\ combinations\ of\ (a-b)\ and\ (c-d).\\In\ particular,\\
+m\mid (a-b)+(c-d)\\i.e.\ m\mid (a+c)-(b+d)\\i.e.\ a+c\equiv b+d\pmod m\\Similarly,\\
+m\mid c\cdot(a-b)+b\cdot(c-d)\\i.e.\ m\mid ac - bd\\i.e. a\cdot c \equiv b\cdot d \pmod m</script>
+
+<p><strong>Corollaries of Theorem 3</strong></p>
+
+<p><em>Corollary #1</em> <br /></p>
+
+<p><script type="math/tex">If\ a\equiv b \pmod m,\ for\ \forall n\in \mathbb{Z}\ a^n\equiv b^n\pmod m</script> (From repeated application of part 2 of theorem 3)</p>
+
+<p><em>Corollary #2</em> <br /></p>
+
+<p><script type="math/tex">Let\ p(x)=c_n\cdot x^n + c_n-1\cdot x^n-1 +\ ...\ + c_1\cdot x + c_0\ be\ a\ polynomial\ and\ a,b \in \mathbb{Z}.\\If\ a\equiv b \pmod m\ ,then\ p(a)\equiv p(b) \pmod m.</script>
+<strong>Proof</strong>
+<script type="math/tex">\\\\From\ corollary\ 1,\ for\ each\ power,\ let\ k,\ of\ x\ in\ p(x),\ a^k\equiv b^k\pmod m.\\ So, c_k\cdot a^k \equiv c_k\cdot b^k \pmod m,\ from\ part\ 2\ of\ theorem\ 3.\\Adding\ all\ congruences\ obtained\ by\ taking\ all\ powers\ in\ the\ polynomial\ p(x),\\ from\ part\ 1\ of\ theorem\ 3,\ p(a)\equiv p(b) \pmod m. \square</script></p>
+
   </div>
 
   
@@ -154,14 +179,14 @@ So,\ b-a = -m\cdot k\\i.e.\ m\mid (b-a). \square</script><br />
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">All Regressions Must Converge</h2>
+    <h2 class="footer-heading">euclidean98</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             
-              All Regressions Must Converge
+              euclidean98
             
             </li>
             
@@ -191,7 +216,7 @@ So,\ b-a = -m\cdot k\\i.e.\ m\mid (b-a). \square</script><br />
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+        <p>“One of the most amazing things about mathematics is the people who do math aren’t interested in application, because mathematics itself is truly a beautiful art form. It’s structures and patterns, and that’s what we love, and that’s what we get off on.” – Danica McKellar</p>
       </div>
     </div>
 

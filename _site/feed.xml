@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-26T23:26:04-04:00</updated><id>http://localhost:4000/</id><title type="html">All Regressions Must Converge</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Congruence (Part I)</title><link href="http://localhost:4000/number-theory/2017/09/24/congruence-part-1.html" rel="alternate" type="text/html" title="Congruence (Part I)" /><published>2017-09-24T10:53:01-04:00</published><updated>2017-09-24T10:53:01-04:00</updated><id>http://localhost:4000/number-theory/2017/09/24/congruence-part-1</id><content type="html" xml:base="http://localhost:4000/number-theory/2017/09/24/congruence-part-1.html">&lt;p&gt;Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘&lt;em&gt;Disquisitiones Arithmeticae&lt;/em&gt;’. In this blog post, I will provide a detailed explanation of the idea of congruences and some of the most important theorems about congruences.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-30T17:51:32-04:00</updated><id>http://localhost:4000/</id><title type="html">euclidean98</title><subtitle>“One of the most amazing things about mathematics is the people who do math aren’t interested in application, because mathematics itself is truly a beautiful art form. It’s structures and patterns, and that’s what we love, and that’s what we get off on.” – Danica McKellar</subtitle><entry><title type="html">Congruence (Part II)</title><link href="http://localhost:4000/number-theory/2017/09/29/congruence-part-2.html" rel="alternate" type="text/html" title="Congruence (Part II)" /><published>2017-09-29T01:48:01-04:00</published><updated>2017-09-29T01:48:01-04:00</updated><id>http://localhost:4000/number-theory/2017/09/29/congruence-part-2</id><content type="html" xml:base="http://localhost:4000/number-theory/2017/09/29/congruence-part-2.html">&lt;p&gt;&lt;strong&gt;THEOREM 4&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Let\ a,b,c,m\in \mathbb{Z}\ and\ m\gt 0.\ c\cdot a \equiv c\cdot b \pmod m \iff a\equiv b\  \left(\mod \left(\frac{m}{(c,m)}\right)\right)&lt;/script&gt;</content><author><name></name></author><summary type="html">THEOREM 4</summary></entry><entry><title type="html">Congruence (Part I)</title><link href="http://localhost:4000/number-theory/2017/09/24/congruence-part-1.html" rel="alternate" type="text/html" title="Congruence (Part I)" /><published>2017-09-24T10:53:01-04:00</published><updated>2017-09-24T10:53:01-04:00</updated><id>http://localhost:4000/number-theory/2017/09/24/congruence-part-1</id><content type="html" xml:base="http://localhost:4000/number-theory/2017/09/24/congruence-part-1.html">&lt;p&gt;Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘&lt;em&gt;Disquisitiones Arithmeticae&lt;/em&gt;’. In this blog post, I will provide a detailed explanation of the idea of congruences and some of the most important theorems about congruences.&lt;/p&gt;
 
 &lt;h4 id=&quot;definition&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Let a,b be two integers. a is congruent to b &lt;strong&gt;relative to&lt;/strong&gt; &lt;em&gt;m&lt;/em&gt;, written: &lt;script type=&quot;math/tex&quot;&gt;a \equiv b \pmod m&lt;/script&gt; if and only if &lt;script type=&quot;math/tex&quot;&gt;m \mid (a-b)&lt;/script&gt;.&lt;/p&gt;
@@ -41,4 +43,29 @@ m\mid r_1-r_2.&lt;/script&gt;
 So,\ b-a = -m\cdot k\\i.e.\ m\mid (b-a). \square&lt;/script&gt;&lt;br /&gt;
 3.&lt;script type=&quot;math/tex&quot;&gt;\ Since,\ a\equiv b \pmod m,\ m\mid (a-b).\ Also,\ b\equiv c\pmod m,\ m\mid (b-c).&lt;/script&gt;
 &lt;script type=&quot;math/tex&quot;&gt;\text{So, m divides all combinations of (a-b) and (b-c). In particular, }m\mid {(a-b)+(b-c)}
-\\i.e.\ m\mid (a-c) \ \blacksquare&lt;/script&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘Disquisitiones Arithmeticae’. In this blog post, I will provide a detailed explanation of the idea of congruences and some of the most important theorems about congruences.</summary></entry></feed>
+\\i.e.\ m\mid (a-c) \ \blacksquare&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;THEOREM 3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Let\ a,b,c,d,m\in \mathbb{Z}\ and\ m \gt 0.\\ If\ a\equiv b\pmod m \land \ c\equiv d\pmod m\  then,\\ a+c\equiv b+d\pmod m\ \land a\cdot c\equiv b\cdot d\pmod m.&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;PROOF&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\equiv b\pmod m \to m\mid (a-b) \\ c\equiv d\pmod m \to m\mid (c-d)\\
+So,\ m\ divides\ all\ combinations\ of\ (a-b)\ and\ (c-d).\\In\ particular,\\
+m\mid (a-b)+(c-d)\\i.e.\ m\mid (a+c)-(b+d)\\i.e.\ a+c\equiv b+d\pmod m\\Similarly,\\
+m\mid c\cdot(a-b)+b\cdot(c-d)\\i.e.\ m\mid ac - bd\\i.e. a\cdot c \equiv b\cdot d \pmod m&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Corollaries of Theorem 3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Corollary #1&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;If\ a\equiv b \pmod m,\ for\ \forall n\in \mathbb{Z}\ a^n\equiv b^n\pmod m&lt;/script&gt; (From repeated application of part 2 of theorem 3)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Corollary #2&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Let\ p(x)=c_n\cdot x^n + c_n-1\cdot x^n-1 +\ ...\ + c_1\cdot x + c_0\ be\ a\ polynomial\ and\ a,b \in \mathbb{Z}.\\If\ a\equiv b \pmod m\ ,then\ p(a)\equiv p(b) \pmod m.&lt;/script&gt;
+&lt;strong&gt;Proof&lt;/strong&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\\\\From\ corollary\ 1,\ for\ each\ power,\ let\ k,\ of\ x\ in\ p(x),\ a^k\equiv b^k\pmod m.\\ So, c_k\cdot a^k \equiv c_k\cdot b^k \pmod m,\ from\ part\ 2\ of\ theorem\ 3.\\Adding\ all\ congruences\ obtained\ by\ taking\ all\ powers\ in\ the\ polynomial\ p(x),\\ from\ part\ 1\ of\ theorem\ 3,\ p(a)\equiv p(b) \pmod m. \square&lt;/script&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Congruence is the language for modular arithmetic. It was introduced by Gauss in the 19th century in his book ‘Disquisitiones Arithmeticae’. In this blog post, I will provide a detailed explanation of the idea of congruences and some of the most important theorems about congruences.</summary></entry></feed>
